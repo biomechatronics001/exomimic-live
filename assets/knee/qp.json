@@ -1,0 +1,263 @@
+{
+ "arrays": {
+  "muscles": {
+   "dtype": "i4",
+   "shape": [
+    354
+   ],
+   "offset": 0
+  },
+  "ind_dofs": {
+   "dtype": "i4",
+   "shape": [
+    31
+   ],
+   "offset": 1416
+  },
+  "sag_dofs": {
+   "dtype": "i4",
+   "shape": [
+    6
+   ],
+   "offset": 1544
+  },
+  "dep_dof": {
+   "dtype": "i4",
+   "shape": [
+    49
+   ],
+   "offset": 1568
+  },
+  "dep_col": {
+   "dtype": "i4",
+   "shape": [
+    49
+   ],
+   "offset": 1768
+  },
+  "dep_qadr": {
+   "dtype": "i4",
+   "shape": [
+    49
+   ],
+   "offset": 1968
+  },
+  "dep_coef": {
+   "dtype": "f8",
+   "shape": [
+    49,
+    5
+   ],
+   "offset": 2168
+  },
+  "scale": {
+   "dtype": "f8",
+   "shape": [
+    31
+   ],
+   "offset": 4128
+  },
+  "w": {
+   "dtype": "f8",
+   "shape": [
+    31
+   ],
+   "offset": 4376
+  },
+  "dyn": {
+   "dtype": "f8",
+   "shape": [
+    354,
+    2
+   ],
+   "offset": 4624
+  },
+  "act_adr": {
+   "dtype": "i4",
+   "shape": [
+    354
+   ],
+   "offset": 10288
+  },
+  "mus_pos": {
+   "dtype": "i4",
+   "shape": [
+    354
+   ],
+   "offset": 11704
+  },
+  "action_indices": {
+   "dtype": "i4",
+   "shape": [
+    356
+   ],
+   "offset": 13120
+  },
+  "prm_range0": {
+   "dtype": "f8",
+   "shape": [
+    354
+   ],
+   "offset": 14544
+  },
+  "prm_lr0": {
+   "dtype": "f8",
+   "shape": [
+    354
+   ],
+   "offset": 17376
+  },
+  "prm_L0": {
+   "dtype": "f8",
+   "shape": [
+    354
+   ],
+   "offset": 20208
+  },
+  "prm_F0": {
+   "dtype": "f8",
+   "shape": [
+    354
+   ],
+   "offset": 23040
+  },
+  "prm_lmin": {
+   "dtype": "f8",
+   "shape": [
+    354
+   ],
+   "offset": 25872
+  },
+  "prm_lmax": {
+   "dtype": "f8",
+   "shape": [
+    354
+   ],
+   "offset": 28704
+  },
+  "prm_vmax": {
+   "dtype": "f8",
+   "shape": [
+    354
+   ],
+   "offset": 31536
+  },
+  "prm_fpmax": {
+   "dtype": "f8",
+   "shape": [
+    354
+   ],
+   "offset": 34368
+  },
+  "prm_fvmax": {
+   "dtype": "f8",
+   "shape": [
+    354
+   ],
+   "offset": 37200
+  },
+  "exo_pos": {
+   "dtype": "i4",
+   "shape": [
+    2
+   ],
+   "offset": 40032
+  },
+  "exo_mean": {
+   "dtype": "f8",
+   "shape": [
+    2
+   ],
+   "offset": 40040
+  },
+  "exo_delta": {
+   "dtype": "f8",
+   "shape": [
+    2
+   ],
+   "offset": 40056
+  },
+  "exo_lo": {
+   "dtype": "f8",
+   "shape": [
+    2
+   ],
+   "offset": 40072
+  },
+  "exo_hi": {
+   "dtype": "f8",
+   "shape": [
+    2
+   ],
+   "offset": 40088
+  },
+  "exo_map": {
+   "dtype": "f8",
+   "shape": [
+    31,
+    2
+   ],
+   "offset": 40104
+  },
+  "exo_filt": {
+   "dtype": "f8",
+   "shape": [
+    5,
+    2
+   ],
+   "offset": 40600
+  }
+ },
+ "meta": {
+  "n_iter": 30,
+  "n_bisect": 24,
+  "cocon_mu": 0.1,
+  "dt": 0.002,
+  "n_sub": 5,
+  "n_ctrl": 356,
+  "n_exo": 2,
+  "emg": false,
+  "dof_names": [
+   "flex_extension",
+   "lat_bending",
+   "axial_rotation",
+   "elv_angle_r",
+   "shoulder_elv_r",
+   "shoulder_rot_r",
+   "elbow_flex_r",
+   "pro_sup_r",
+   "deviation_r",
+   "flexion_r",
+   "elv_angle_l",
+   "shoulder_elv_l",
+   "shoulder_rot_l",
+   "elbow_flex_l",
+   "pro_sup_l",
+   "deviation_l",
+   "flexion_l",
+   "hip_flexion_r",
+   "hip_adduction_r",
+   "hip_rotation_r",
+   "knee_angle_r",
+   "ankle_angle_r",
+   "subtalar_angle_r",
+   "mtp_angle_r",
+   "hip_flexion_l",
+   "hip_adduction_l",
+   "hip_rotation_l",
+   "knee_angle_l",
+   "ankle_angle_l",
+   "subtalar_angle_l",
+   "mtp_angle_l"
+  ],
+  "nu": 356,
+  "nv": 88,
+  "eps": 1e-07,
+  "minval": 1e-15,
+  "exo_ideal": true,
+  "exo_names": [
+   "exo_knee_r",
+   "exo_knee_l"
+  ]
+ }
+}

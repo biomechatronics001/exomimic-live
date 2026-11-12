@@ -1,0 +1,45 @@
+{
+ "arrays": {
+  "qpos": {
+   "dtype": "f4",
+   "shape": [
+    1971,
+    89
+   ],
+   "offset": 0
+  },
+  "qvel": {
+   "dtype": "f4",
+   "shape": [
+    1971,
+    88
+   ],
+   "offset": 701680
+  },
+  "site_rpos": {
+   "dtype": "f4",
+   "shape": [
+    1971,
+    16,
+    3
+   ],
+   "offset": 1395472
+  },
+  "root_xpos": {
+   "dtype": "f4",
+   "shape": [
+    1971,
+    3
+   ],
+   "offset": 1773904
+  }
+ },
+ "meta": {
+  "id": "run_2p5",
+  "label": "Run 2.5 m/s",
+  "category": "run",
+  "source": "synth/const_run_2p5mps_wr_sym",
+  "length": 1971,
+  "dt": 0.01
+ }
+}

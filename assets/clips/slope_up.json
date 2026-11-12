@@ -1,0 +1,45 @@
+{
+ "arrays": {
+  "qpos": {
+   "dtype": "f4",
+   "shape": [
+    613,
+    89
+   ],
+   "offset": 0
+  },
+  "qvel": {
+   "dtype": "f4",
+   "shape": [
+    613,
+    88
+   ],
+   "offset": 218232
+  },
+  "site_rpos": {
+   "dtype": "f4",
+   "shape": [
+    613,
+    16,
+    3
+   ],
+   "offset": 434008
+  },
+  "root_xpos": {
+   "dtype": "f4",
+   "shape": [
+    613,
+    3
+   ],
+   "offset": 551704
+  }
+ },
+ "meta": {
+  "id": "slope_up",
+  "label": "Ramp up",
+  "category": "slope",
+  "source": "combined/KIT/3/slope_up01_poses",
+  "length": 613,
+  "dt": 0.01
+ }
+}

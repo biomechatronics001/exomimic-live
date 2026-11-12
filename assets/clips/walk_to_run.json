@@ -1,0 +1,45 @@
+{
+ "arrays": {
+  "qpos": {
+   "dtype": "f4",
+   "shape": [
+    350,
+    89
+   ],
+   "offset": 0
+  },
+  "qvel": {
+   "dtype": "f4",
+   "shape": [
+    350,
+    88
+   ],
+   "offset": 124600
+  },
+  "site_rpos": {
+   "dtype": "f4",
+   "shape": [
+    350,
+    16,
+    3
+   ],
+   "offset": 247800
+  },
+  "root_xpos": {
+   "dtype": "f4",
+   "shape": [
+    350,
+    3
+   ],
+   "offset": 315000
+  }
+ },
+ "meta": {
+  "id": "walk_to_run",
+  "label": "Walk to run",
+  "category": "run",
+  "source": "ACCAD/ACCAD/Male2Running_c3d/C5 - walk to run_poses",
+  "length": 350,
+  "dt": 0.01
+ }
+}

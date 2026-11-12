@@ -1,0 +1,106 @@
+{
+ "meta": {
+  "note": "sidesites moved so MuJoCo >= 3.17 wraps as the 3.4 training model (export/sidesite_compat.mjs)",
+  "reference": "3.7.0",
+  "engine": "4.0.1",
+  "states": 7713,
+  "moved_tendons_max_diff_m": 1.354472090042691e-14,
+  "max_moment_diff_m": 8.093041969220449e-9
+ },
+ "sites": {
+  "TMAJ_LAThum_cylinder_TMAJ_1_sidesite": {
+   "pos": [
+    -0.03136501165632119,
+    0.03283642176962158,
+    0.08237381557699114
+   ],
+   "was": [
+    0.0707,
+    0.0257,
+    0.0645
+   ],
+   "geom": "TMAJ_LAThum_cylinder",
+   "tendons": [
+    "TMAJ_tendon"
+   ]
+  },
+  "TMAJ_LAThum_cylinder_LAT2_1_sidesite": {
+   "pos": [
+    -0.016091982022402848,
+    0.032029364180032376,
+    0.08719227316034116
+   ],
+   "was": [
+    0.0707,
+    0.0257,
+    0.0645
+   ],
+   "geom": "TMAJ_LAThum_cylinder",
+   "tendons": [
+    "LAT2_tendon"
+   ]
+  },
+  "TMAJ_LAThum_cylinder_TMAJ_1_sidesite_left": {
+   "pos": [
+    -0.03136501165632073,
+    0.03283642176962155,
+    -0.08237381557699132
+   ],
+   "was": [
+    0.0707,
+    0.0257,
+    -0.0645
+   ],
+   "geom": "TMAJ_LAThum_cylinder_left",
+   "tendons": [
+    "TMAJ_tendon_left"
+   ]
+  },
+  "TMAJ_LAThum_cylinder_LAT2_1_sidesite_left": {
+   "pos": [
+    -0.016091982022402862,
+    0.032029364180032376,
+    -0.08719227316034117
+   ],
+   "was": [
+    0.0707,
+    0.0257,
+    -0.0645
+   ],
+   "geom": "TMAJ_LAThum_cylinder_left",
+   "tendons": [
+    "LAT2_tendon_left"
+   ]
+  }
+ },
+ "rare": {
+  "DELT3_tendon": {
+   "states": 3,
+   "max_m": 0.002133755166284418
+  },
+  "SUP_tendon": {
+   "states": 5,
+   "max_m": 0.030477959281246046
+  },
+  "ECRB_tendon": {
+   "states": 1,
+   "max_m": 0.00003789853233437945
+  },
+  "PQ_tendon": {
+   "states": 1,
+   "max_m": 0.001309766321748361
+  },
+  "DELT3_tendon_left": {
+   "states": 3,
+   "max_m": 0.0021545431543739113
+  },
+  "SUP_tendon_left": {
+   "states": 9,
+   "max_m": 0.030352578609674274
+  },
+  "BIClong_tendon_left": {
+   "states": 7,
+   "max_m": 0.030244952605450126
+  }
+ }
+}

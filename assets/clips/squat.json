@@ -1,0 +1,45 @@
+{
+ "arrays": {
+  "qpos": {
+   "dtype": "f4",
+   "shape": [
+    754,
+    89
+   ],
+   "offset": 0
+  },
+  "qvel": {
+   "dtype": "f4",
+   "shape": [
+    754,
+    88
+   ],
+   "offset": 268424
+  },
+  "site_rpos": {
+   "dtype": "f4",
+   "shape": [
+    754,
+    16,
+    3
+   ],
+   "offset": 533832
+  },
+  "root_xpos": {
+   "dtype": "f4",
+   "shape": [
+    754,
+    3
+   ],
+   "offset": 678600
+  }
+ },
+ "meta": {
+  "id": "squat",
+  "label": "Deep squat",
+  "category": "squat",
+  "source": "BMLmovi/BMLmovi/Subject_55_F_MoSh/Subject_55_F_8_poses",
+  "length": 754,
+  "dt": 0.01
+ }
+}

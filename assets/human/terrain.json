@@ -1,0 +1,27 @@
+{
+ "type": "CanonicalTerrain",
+ "pieces": [
+  {
+   "kind": "stairs",
+   "step_rise": 0.185,
+   "step_run": 0.26,
+   "n_steps": 4,
+   "slope_rad": 0.07330382858376185,
+   "start_x": -0.04,
+   "length": 3.0,
+   "half_width": 1.0,
+   "y_center": -30.0
+  },
+  {
+   "kind": "ramp",
+   "step_rise": 0.185,
+   "step_run": 0.26,
+   "n_steps": 4,
+   "slope_rad": 0.07330382858376185,
+   "start_x": -0.22,
+   "length": 20.0,
+   "half_width": 2.5,
+   "y_center": -40.0
+  }
+ ]
+}

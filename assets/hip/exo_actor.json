@@ -1,0 +1,160 @@
+{
+ "arrays": {
+  "in_mean": {
+   "dtype": "f8",
+   "shape": [
+    40
+   ],
+   "offset": 0
+  },
+  "in_var": {
+   "dtype": "f8",
+   "shape": [
+    40
+   ],
+   "offset": 320
+  },
+  "hist_ind": {
+   "dtype": "i4",
+   "shape": [
+    4
+   ],
+   "offset": 640
+  },
+  "log_std": {
+   "dtype": "f8",
+   "shape": [
+    1
+   ],
+   "offset": 656
+  },
+  "Dense_0.kernel": {
+   "dtype": "f4",
+   "shape": [
+    40,
+    256
+   ],
+   "offset": 664
+  },
+  "Dense_0.bias": {
+   "dtype": "f4",
+   "shape": [
+    256
+   ],
+   "offset": 41624
+  },
+  "Dense_1.kernel": {
+   "dtype": "f4",
+   "shape": [
+    256,
+    512
+   ],
+   "offset": 42648
+  },
+  "Dense_1.bias": {
+   "dtype": "f4",
+   "shape": [
+    512
+   ],
+   "offset": 566936
+  },
+  "Dense_2.kernel": {
+   "dtype": "f4",
+   "shape": [
+    512,
+    256
+   ],
+   "offset": 568984
+  },
+  "Dense_2.bias": {
+   "dtype": "f4",
+   "shape": [
+    256
+   ],
+   "offset": 1093272
+  },
+  "Dense_3.kernel": {
+   "dtype": "f4",
+   "shape": [
+    256,
+    1
+   ],
+   "offset": 1094296
+  },
+  "Dense_3.bias": {
+   "dtype": "f4",
+   "shape": [
+    1
+   ],
+   "offset": 1095320
+  },
+  "LayerNorm_0.scale": {
+   "dtype": "f4",
+   "shape": [
+    256
+   ],
+   "offset": 1095328
+  },
+  "LayerNorm_0.bias": {
+   "dtype": "f4",
+   "shape": [
+    256
+   ],
+   "offset": 1096352
+  },
+  "LayerNorm_1.scale": {
+   "dtype": "f4",
+   "shape": [
+    512
+   ],
+   "offset": 1097376
+  },
+  "LayerNorm_1.bias": {
+   "dtype": "f4",
+   "shape": [
+    512
+   ],
+   "offset": 1099424
+  },
+  "LayerNorm_2.scale": {
+   "dtype": "f4",
+   "shape": [
+    256
+   ],
+   "offset": 1101472
+  },
+  "LayerNorm_2.bias": {
+   "dtype": "f4",
+   "shape": [
+    256
+   ],
+   "offset": 1102496
+  }
+ },
+ "meta": {
+  "arch": "shared_leg",
+  "activation": "silu",
+  "layernorm_eps": 1e-05,
+  "obs_eps": 1e-08,
+  "n_dense": 4,
+  "history": 10,
+  "delay": 4,
+  "buf_len": 14,
+  "contralateral": true,
+  "n_channels": 4,
+  "ko": 1,
+  "device": "hip",
+  "label": "Hip exo (T-RO all, vn37cv c610)",
+  "source": "all_vn37cv_negwork_d40_tq0.2sm0.0st0.0_5e7/checkpoint_610",
+  "exo_parents": "own-leg",
+  "motors": [
+   "exo_hip_r",
+   "exo_hip_l"
+  ],
+  "torque_limit": 15.0,
+  "observed": [
+   "hip_flexion_r",
+   "hip_flexion_l"
+  ]
+ }
+}

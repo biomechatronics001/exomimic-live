@@ -1,0 +1,45 @@
+{
+ "arrays": {
+  "qpos": {
+   "dtype": "f4",
+   "shape": [
+    765,
+    89
+   ],
+   "offset": 0
+  },
+  "qvel": {
+   "dtype": "f4",
+   "shape": [
+    765,
+    88
+   ],
+   "offset": 272344
+  },
+  "site_rpos": {
+   "dtype": "f4",
+   "shape": [
+    765,
+    16,
+    3
+   ],
+   "offset": 541624
+  },
+  "root_xpos": {
+   "dtype": "f4",
+   "shape": [
+    765,
+    3
+   ],
+   "offset": 688504
+  }
+ },
+ "meta": {
+  "id": "stairs_up",
+  "label": "Stairs up",
+  "category": "stairs",
+  "source": "combined/KIT/3/upstairs01_poses",
+  "length": 765,
+  "dt": 0.01
+ }
+}

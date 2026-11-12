@@ -1,0 +1,83 @@
+[
+ {
+  "id": "walk_1p2",
+  "label": "Walk 1.2 m/s",
+  "category": "walk",
+  "source": "synth/const_1p2mps_wr_sym",
+  "length": 1976,
+  "seconds": 19.76,
+  "start": 0
+ },
+ {
+  "id": "walk_kit",
+  "label": "Walk (KIT)",
+  "category": "walk",
+  "source": "KIT/9/walking_medium08_poses",
+  "length": 483,
+  "seconds": 4.83,
+  "start": 0
+ },
+ {
+  "id": "run_2p5",
+  "label": "Run 2.5 m/s",
+  "category": "run",
+  "source": "synth/const_run_2p5mps_wr_sym",
+  "length": 1971,
+  "seconds": 19.71,
+  "start": 55
+ },
+ {
+  "id": "walk_to_run",
+  "label": "Walk to run",
+  "category": "run",
+  "source": "ACCAD/ACCAD/Male2Running_c3d/C5 - walk to run_poses",
+  "length": 350,
+  "seconds": 3.5,
+  "start": 0
+ },
+ {
+  "id": "squat",
+  "label": "Deep squat",
+  "category": "squat",
+  "source": "BMLmovi/BMLmovi/Subject_55_F_MoSh/Subject_55_F_8_poses",
+  "length": 754,
+  "seconds": 7.54,
+  "start": 0
+ },
+ {
+  "id": "stairs_up",
+  "label": "Stairs up",
+  "category": "stairs",
+  "source": "combined/KIT/3/upstairs01_poses",
+  "length": 765,
+  "seconds": 7.65,
+  "start": 0
+ },
+ {
+  "id": "stairs_down",
+  "label": "Stairs down",
+  "category": "stairs",
+  "source": "combined/KIT/167/downstairs01_poses",
+  "length": 547,
+  "seconds": 5.47,
+  "start": 0
+ },
+ {
+  "id": "slope_up",
+  "label": "Ramp up",
+  "category": "slope",
+  "source": "combined/KIT/3/slope_up01_poses",
+  "length": 613,
+  "seconds": 6.13,
+  "start": 0
+ },
+ {
+  "id": "slope_down",
+  "label": "Ramp down",
+  "category": "slope",
+  "source": "combined/KIT/3/slope_down01_poses",
+  "length": 527,
+  "seconds": 5.27,
+  "start": 0
+ }
+]

@@ -1,0 +1,192 @@
+{
+ "arrays": {
+  "actuator_acc0": {
+   "dtype": "f8",
+   "shape": [
+    354
+   ],
+   "offset": 0
+  },
+  "actuator_length0": {
+   "dtype": "f8",
+   "shape": [
+    354
+   ],
+   "offset": 2832
+  },
+  "body_invweight0": {
+   "dtype": "f8",
+   "shape": [
+    102,
+    2
+   ],
+   "offset": 5664
+  },
+  "body_iquat": {
+   "dtype": "f8",
+   "shape": [
+    102,
+    4
+   ],
+   "offset": 7296
+  },
+  "body_quat": {
+   "dtype": "f8",
+   "shape": [
+    102,
+    4
+   ],
+   "offset": 10560
+  },
+  "cam_mat0": {
+   "dtype": "f8",
+   "shape": [
+    4,
+    9
+   ],
+   "offset": 13824
+  },
+  "cam_pos0": {
+   "dtype": "f8",
+   "shape": [
+    4,
+    3
+   ],
+   "offset": 14112
+  },
+  "cam_poscom0": {
+   "dtype": "f8",
+   "shape": [
+    4,
+    3
+   ],
+   "offset": 14208
+  },
+  "cam_quat": {
+   "dtype": "f8",
+   "shape": [
+    4,
+    4
+   ],
+   "offset": 14304
+  },
+  "dof_M0": {
+   "dtype": "f8",
+   "shape": [
+    88
+   ],
+   "offset": 14432
+  },
+  "dof_invweight0": {
+   "dtype": "f8",
+   "shape": [
+    88
+   ],
+   "offset": 15136
+  },
+  "dof_length": {
+   "dtype": "f8",
+   "shape": [
+    88
+   ],
+   "offset": 15840
+  },
+  "geom_aabb": {
+   "dtype": "f8",
+   "shape": [
+    423,
+    6
+   ],
+   "offset": 16544
+  },
+  "geom_pos": {
+   "dtype": "f8",
+   "shape": [
+    423,
+    3
+   ],
+   "offset": 36848
+  },
+  "geom_quat": {
+   "dtype": "f8",
+   "shape": [
+    423,
+    4
+   ],
+   "offset": 47000
+  },
+  "geom_rbound": {
+   "dtype": "f8",
+   "shape": [
+    423
+   ],
+   "offset": 60536
+  },
+  "geom_size": {
+   "dtype": "f8",
+   "shape": [
+    423,
+    3
+   ],
+   "offset": 63920
+  },
+  "jnt_range": {
+   "dtype": "f8",
+   "shape": [
+    83,
+    2
+   ],
+   "offset": 74072
+  },
+  "light_poscom0": {
+   "dtype": "f8",
+   "shape": [
+    1,
+    3
+   ],
+   "offset": 75400
+  },
+  "site_pos": {
+   "dtype": "f8",
+   "shape": [
+    2038,
+    3
+   ],
+   "offset": 75424
+  },
+  "site_quat": {
+   "dtype": "f8",
+   "shape": [
+    2038,
+    4
+   ],
+   "offset": 124336
+  },
+  "tendon_invweight0": {
+   "dtype": "f8",
+   "shape": [
+    362
+   ],
+   "offset": 189552
+  },
+  "tendon_length0": {
+   "dtype": "f8",
+   "shape": [
+    362
+   ],
+   "offset": 192448
+  },
+  "tendon_lengthspring": {
+   "dtype": "f8",
+   "shape": [
+    362,
+    2
+   ],
+   "offset": 195344
+  }
+ },
+ "meta": {
+  "mujoco": "3.4.0",
+  "note": "exact values, see export_model.py"
+ }
+}

@@ -1,0 +1,45 @@
+{
+ "arrays": {
+  "qpos": {
+   "dtype": "f4",
+   "shape": [
+    547,
+    89
+   ],
+   "offset": 0
+  },
+  "qvel": {
+   "dtype": "f4",
+   "shape": [
+    547,
+    88
+   ],
+   "offset": 194736
+  },
+  "site_rpos": {
+   "dtype": "f4",
+   "shape": [
+    547,
+    16,
+    3
+   ],
+   "offset": 387280
+  },
+  "root_xpos": {
+   "dtype": "f4",
+   "shape": [
+    547,
+    3
+   ],
+   "offset": 492304
+  }
+ },
+ "meta": {
+  "id": "stairs_down",
+  "label": "Stairs down",
+  "category": "stairs",
+  "source": "combined/KIT/167/downstairs01_poses",
+  "length": 547,
+  "dt": 0.01
+ }
+}

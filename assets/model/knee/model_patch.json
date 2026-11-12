@@ -1,0 +1,208 @@
+{
+ "arrays": {
+  "actuator_acc0": {
+   "dtype": "f8",
+   "shape": [
+    356
+   ],
+   "offset": 0
+  },
+  "actuator_length0": {
+   "dtype": "f8",
+   "shape": [
+    356
+   ],
+   "offset": 2848
+  },
+  "body_inertia": {
+   "dtype": "f8",
+   "shape": [
+    106,
+    3
+   ],
+   "offset": 5696
+  },
+  "body_invweight0": {
+   "dtype": "f8",
+   "shape": [
+    106,
+    2
+   ],
+   "offset": 8240
+  },
+  "body_ipos": {
+   "dtype": "f8",
+   "shape": [
+    106,
+    3
+   ],
+   "offset": 9936
+  },
+  "body_iquat": {
+   "dtype": "f8",
+   "shape": [
+    106,
+    4
+   ],
+   "offset": 12480
+  },
+  "body_quat": {
+   "dtype": "f8",
+   "shape": [
+    106,
+    4
+   ],
+   "offset": 15872
+  },
+  "cam_mat0": {
+   "dtype": "f8",
+   "shape": [
+    4,
+    9
+   ],
+   "offset": 19264
+  },
+  "cam_pos0": {
+   "dtype": "f8",
+   "shape": [
+    4,
+    3
+   ],
+   "offset": 19552
+  },
+  "cam_poscom0": {
+   "dtype": "f8",
+   "shape": [
+    4,
+    3
+   ],
+   "offset": 19648
+  },
+  "cam_quat": {
+   "dtype": "f8",
+   "shape": [
+    4,
+    4
+   ],
+   "offset": 19744
+  },
+  "dof_M0": {
+   "dtype": "f8",
+   "shape": [
+    88
+   ],
+   "offset": 19872
+  },
+  "dof_invweight0": {
+   "dtype": "f8",
+   "shape": [
+    88
+   ],
+   "offset": 20576
+  },
+  "dof_length": {
+   "dtype": "f8",
+   "shape": [
+    88
+   ],
+   "offset": 21280
+  },
+  "geom_aabb": {
+   "dtype": "f8",
+   "shape": [
+    427,
+    6
+   ],
+   "offset": 21984
+  },
+  "geom_pos": {
+   "dtype": "f8",
+   "shape": [
+    427,
+    3
+   ],
+   "offset": 42480
+  },
+  "geom_quat": {
+   "dtype": "f8",
+   "shape": [
+    427,
+    4
+   ],
+   "offset": 52728
+  },
+  "geom_rbound": {
+   "dtype": "f8",
+   "shape": [
+    427
+   ],
+   "offset": 66392
+  },
+  "geom_size": {
+   "dtype": "f8",
+   "shape": [
+    427,
+    3
+   ],
+   "offset": 69808
+  },
+  "jnt_range": {
+   "dtype": "f8",
+   "shape": [
+    83,
+    2
+   ],
+   "offset": 80056
+  },
+  "light_poscom0": {
+   "dtype": "f8",
+   "shape": [
+    1,
+    3
+   ],
+   "offset": 81384
+  },
+  "site_pos": {
+   "dtype": "f8",
+   "shape": [
+    2038,
+    3
+   ],
+   "offset": 81408
+  },
+  "site_quat": {
+   "dtype": "f8",
+   "shape": [
+    2038,
+    4
+   ],
+   "offset": 130320
+  },
+  "tendon_invweight0": {
+   "dtype": "f8",
+   "shape": [
+    362
+   ],
+   "offset": 195536
+  },
+  "tendon_length0": {
+   "dtype": "f8",
+   "shape": [
+    362
+   ],
+   "offset": 198432
+  },
+  "tendon_lengthspring": {
+   "dtype": "f8",
+   "shape": [
+    362,
+    2
+   ],
+   "offset": 201328
+  }
+ },
+ "meta": {
+  "mujoco": "3.4.0",
+  "note": "exact values, see export_model.py"
+ }
+}

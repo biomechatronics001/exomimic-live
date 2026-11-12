@@ -1,0 +1,239 @@
+{
+ "arrays": {
+  "obs_mean": {
+   "dtype": "f4",
+   "shape": [
+    656
+   ],
+   "offset": 0
+  },
+  "obs_var": {
+   "dtype": "f4",
+   "shape": [
+    656
+   ],
+   "offset": 2624
+  },
+  "log_std": {
+   "dtype": "f4",
+   "shape": [
+    31
+   ],
+   "offset": 5248
+  },
+  "block0_layer0_dense.bias": {
+   "dtype": "f4",
+   "shape": [
+    1024
+   ],
+   "offset": 5376
+  },
+  "block0_layer0_dense.kernel": {
+   "dtype": "f4",
+   "shape": [
+    656,
+    1024
+   ],
+   "offset": 9472
+  },
+  "block0_layer0_ln.bias": {
+   "dtype": "f4",
+   "shape": [
+    1024
+   ],
+   "offset": 2696448
+  },
+  "block0_layer0_ln.scale": {
+   "dtype": "f4",
+   "shape": [
+    1024
+   ],
+   "offset": 2700544
+  },
+  "block0_layer1_dense.bias": {
+   "dtype": "f4",
+   "shape": [
+    1024
+   ],
+   "offset": 2704640
+  },
+  "block0_layer1_dense.kernel": {
+   "dtype": "f4",
+   "shape": [
+    1024,
+    1024
+   ],
+   "offset": 2708736
+  },
+  "block0_layer1_ln.bias": {
+   "dtype": "f4",
+   "shape": [
+    1024
+   ],
+   "offset": 6903040
+  },
+  "block0_layer1_ln.scale": {
+   "dtype": "f4",
+   "shape": [
+    1024
+   ],
+   "offset": 6907136
+  },
+  "block0_proj.bias": {
+   "dtype": "f4",
+   "shape": [
+    1024
+   ],
+   "offset": 6911232
+  },
+  "block0_proj.kernel": {
+   "dtype": "f4",
+   "shape": [
+    656,
+    1024
+   ],
+   "offset": 6915328
+  },
+  "block1_layer0_dense.bias": {
+   "dtype": "f4",
+   "shape": [
+    1024
+   ],
+   "offset": 9602304
+  },
+  "block1_layer0_dense.kernel": {
+   "dtype": "f4",
+   "shape": [
+    1024,
+    1024
+   ],
+   "offset": 9606400
+  },
+  "block1_layer0_ln.bias": {
+   "dtype": "f4",
+   "shape": [
+    1024
+   ],
+   "offset": 13800704
+  },
+  "block1_layer0_ln.scale": {
+   "dtype": "f4",
+   "shape": [
+    1024
+   ],
+   "offset": 13804800
+  },
+  "block1_layer1_dense.bias": {
+   "dtype": "f4",
+   "shape": [
+    1024
+   ],
+   "offset": 13808896
+  },
+  "block1_layer1_dense.kernel": {
+   "dtype": "f4",
+   "shape": [
+    1024,
+    1024
+   ],
+   "offset": 13812992
+  },
+  "block1_layer1_ln.bias": {
+   "dtype": "f4",
+   "shape": [
+    1024
+   ],
+   "offset": 18007296
+  },
+  "block1_layer1_ln.scale": {
+   "dtype": "f4",
+   "shape": [
+    1024
+   ],
+   "offset": 18011392
+  },
+  "output.bias": {
+   "dtype": "f4",
+   "shape": [
+    31
+   ],
+   "offset": 18015488
+  },
+  "output.kernel": {
+   "dtype": "f4",
+   "shape": [
+    1024,
+    31
+   ],
+   "offset": 18015616
+  },
+  "res_gate_0": {
+   "dtype": "f4",
+   "shape": [
+    1
+   ],
+   "offset": 18142592
+  },
+  "res_gate_1": {
+   "dtype": "f4",
+   "shape": [
+    1
+   ],
+   "offset": 18142600
+  },
+  "tail_dense.bias": {
+   "dtype": "f4",
+   "shape": [
+    1024
+   ],
+   "offset": 18142608
+  },
+  "tail_dense.kernel": {
+   "dtype": "f4",
+   "shape": [
+    1024,
+    1024
+   ],
+   "offset": 18146704
+  },
+  "tail_ln.bias": {
+   "dtype": "f4",
+   "shape": [
+    1024
+   ],
+   "offset": 22341008
+  },
+  "tail_ln.scale": {
+   "dtype": "f4",
+   "shape": [
+    1024
+   ],
+   "offset": 22345104
+  }
+ },
+ "meta": {
+  "arch": "residual_gated",
+  "activation": "silu",
+  "layernorm_eps": 1e-05,
+  "obs_eps": 1e-08,
+  "blocks": [
+   {
+    "layer0": "block0_layer0",
+    "layer1": "block0_layer1",
+    "gate": "res_gate_0",
+    "proj": "block0_proj"
+   },
+   {
+    "layer0": "block1_layer0",
+    "layer1": "block1_layer1",
+    "gate": "res_gate_1",
+    "proj": null
+   }
+  ],
+  "tail": "tail",
+  "output": "output",
+  "obs_dim": 656,
+  "action_dim": 31,
+  "source": "checkpoints/Human/Torque_QP/tqp_sym-True_sampling-segment_terrain-True/checkpoint_14648"
+ }
+}

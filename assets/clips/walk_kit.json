@@ -1,0 +1,45 @@
+{
+ "arrays": {
+  "qpos": {
+   "dtype": "f4",
+   "shape": [
+    483,
+    89
+   ],
+   "offset": 0
+  },
+  "qvel": {
+   "dtype": "f4",
+   "shape": [
+    483,
+    88
+   ],
+   "offset": 171952
+  },
+  "site_rpos": {
+   "dtype": "f4",
+   "shape": [
+    483,
+    16,
+    3
+   ],
+   "offset": 341968
+  },
+  "root_xpos": {
+   "dtype": "f4",
+   "shape": [
+    483,
+    3
+   ],
+   "offset": 434704
+  }
+ },
+ "meta": {
+  "id": "walk_kit",
+  "label": "Walk (KIT)",
+  "category": "walk",
+  "source": "KIT/9/walking_medium08_poses",
+  "length": 483,
+  "dt": 0.01
+ }
+}
